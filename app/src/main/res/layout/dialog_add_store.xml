@@ -1,0 +1,27 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <EditText
+        android:id="@+id/et_store_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="店家名稱" />
+
+    <EditText
+        android:id="@+id/et_store_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="店家電話"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/et_store_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="店家地址" />
+
+</LinearLayout>

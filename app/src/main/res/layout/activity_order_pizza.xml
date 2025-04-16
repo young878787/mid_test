@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:id="@+id/rg_pizza_flavors"
+        android:layout_width="372dp"
+        android:layout_height="640dp">
+
+        <RadioButton
+            android:id="@+id/rb_pizza_margherita"
+            android:layout_width="142dp"
+            android:layout_height="84dp"
+            android:text="瑪格麗吐pizza" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="155dp"
+            android:layout_height="94dp"
+            app:srcCompat="@drawable/pngtree_classic_margherita_pizza_illustration_png_image_14593127" />
+
+        <RadioButton
+            android:id="@+id/rb_pizza_pepperoni"
+            android:layout_width="169dp"
+            android:layout_height="90dp"
+            android:text="香菜素食pizza" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="162dp"
+            android:layout_height="107dp"
+            app:srcCompat="@drawable/__s" />
+
+        <RadioButton
+            android:id="@+id/rb_pizza_vegetarian"
+            android:layout_width="169dp"
+            android:layout_height="79dp"
+            android:text="巧克力pizza" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="167dp"
+            android:layout_height="161dp"
+            app:srcCompat="@drawable/_00x" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_confirm_pizza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="確認點餐" />
+</LinearLayout>

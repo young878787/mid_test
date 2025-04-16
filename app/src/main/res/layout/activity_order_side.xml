@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 副餐選項 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="選擇副餐:"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <CheckBox
+        android:id="@+id/cb_side_salad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="沙拉" />
+    <CheckBox
+        android:id="@+id/cb_side_fries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="薯條" />
+    <CheckBox
+        android:id="@+id/cb_side_drink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="飲料" />
+
+    <!-- 確認按鈕 -->
+    <Button
+        android:id="@+id/btn_confirm_side"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="確認副餐"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

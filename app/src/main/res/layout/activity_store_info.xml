@@ -1,0 +1,22 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 店家清單 -->
+    <ListView
+        android:id="@+id/lv_store_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- 新增店家按鈕 -->
+    <Button
+        android:id="@+id/btn_add_store"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新增店家" />
+
+</LinearLayout>
